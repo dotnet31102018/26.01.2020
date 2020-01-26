@@ -34,9 +34,10 @@ namespace dpcomp
 
             //root.Draw(""); // without recurrsion
 
-            Draw(root, "");
+            Draw(root, ""); // with recusrion
         }
 
+        // recursion
         static void Draw(Component c, string space)
         {
             Console.WriteLine(space + c.GetName());
